@@ -5,11 +5,11 @@
 
 import React from 'react'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import StartPage from '../pages/StartPage';
-import ChinoiHomePage from '../pages/ChinoiHomePage';
-import HealthFormPage from '../pages/HealthFormPage';
-import SignupPage from '../pages/SignupPage';
-import LoginPage from '../pages/LoginPage';
+import StartPage from '../pages/Start/StartPage';
+import ChinoiHomePage from '../pages/ChinoiHome/ChinoiHomePage';
+import HealthFormPage from '../pages/HealthForm/HealthFormPage';
+import SignupPage from '../pages/Signup/SignupPage';
+import LoginPage from '../pages/Login/LoginPage';
 import { isLoggedIn } from '../utils/auth';
 
 const AppRoutes = () => {
